@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="Assets/CSS/bootstrap.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="Assets/CSS/style.css" />
+    <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="Assets/JS/app.js"></script>
 </head>
@@ -16,19 +17,57 @@
         <h1 class="display-4">Train Schedule App Calculation Thing for Homework...</h1>
         <p class="lead">This app will show users the destination of trains, thenn frequency of their departure as well as how long it will be before they make their next departure.</p>
         <hr class="my-4">
-        <p>Also, the user can add new train routes and their frequency of departure.</p>
       </div>
-
-      <div class="input-group">
-        <div class="input-group-prepend">
-          <span class="input-group-text" id="">Train Destination | Departure Frequency</span>
-        </div>
-        <input type="text" class="form-control">
-        <input type="text" class="form-control">
-        <a class="btn btn-primary btn-lg" id="submit-button" href="#" role="button">Add a train route!</a>
-      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <!-- Add Destination  -->
+          <div class="card mb-4 p-4">
+            <div class="card-body">
+              <h3 class="card-title">Add Route</h3>
+              <!-- Entry Form -->
+              <form>
+                <div class="form-group row">
+                  <label for="destination-input">Destination</label>
+                  <input class="form-control" id="destination-input" placeholder="Write a City" type="text">
+                </div>
+                <div class="form-group row">
+                  <label for="frequency-input">Frequency of Departure</label>
+                  <input class="form-control" id="frequency-input" placeholder="Frequency of departure in minutes" type="text">
+                  <hr>
+                  <brt>
+                  <button id="add-route-button">Add Route</button>
+                </div>
+                </form>
+                </div>
       <br>
-      <table class="table">
+      <br>
+      <div class="row">
+
+        <div class="col-md-12">
+  
+          <!-- Current Employees-->
+          <div class="card mb-4">
+            <div class="card-body">
+              <h3 class="card-title">Train Schedules by Departure</h3>
+              <table class="table table-sm table-hover" id='employee-table'>
+                <thead>
+                  <tr>
+                    <th scope="col">Destination</th>
+                    <th scope="col">Frequency of Departure</th>
+                    <th scope="col">Time Before Next Departure</th>
+                    <!-- <th scope="col">Months Worked</th>
+                    <th scope="col">Monthly Rate ($)</th>
+                    <th scope="col">Total Billed ($)</th> -->
+                  </tr>
+                </thead>
+                <tbody>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+          <!-- <table class="route-table">
         <thead>
           <tr>
             <th scope="col">Train Destination</th>
@@ -52,6 +91,6 @@
             <td>8 minute(s)</td>
           </tr>
         </tbody>
-      </table>
+      </table> -->
 </body>
 </html>

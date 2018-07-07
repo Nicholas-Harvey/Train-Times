@@ -1,7 +1,39 @@
 th {
-    font-size: 14px;
+    font-size: 17px;
+}
+.display-4{ 
+    font-size: 25px;
+    font-weight: bold;
+}
+td {
+    font-size: 17px;
 }
 
-td {
-    font-size: 13px;
+.input-group {
+    padding: 30px;
+    /* margin: 30px; */
+}
+
+.jumbotron {
+    text-align: center;
+}
+
+#input-train {
+    /* width: auto; */
+}
+
+.input-container {
+    left: 25%;
+}
+
+#add-route-button {
+    height: auto;
+    width: auto;
+    font-size: 11px;
+    color: black;
+    background-color: #e9ecef;
+}
+
+.card mb-4 p-4 {
+    left: 20px;
 }

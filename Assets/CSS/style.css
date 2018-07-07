@@ -4,11 +4,14 @@ th {
 .display-4{ 
     font-size: 25px;
     font-weight: bold;
+    left: 0%;
 }
 td {
     font-size: 17px;
 }
-
+h3{
+    text-align: left
+}
 .input-group {
     padding: 30px;
     /* margin: 30px; */
@@ -16,14 +19,15 @@ td {
 
 .jumbotron {
     text-align: center;
+    left: 10%;
+    right: 10%;
 }
 
-#input-train {
-    /* width: auto; */
-}
 
-.input-container {
-    left: 25%;
+
+.card.mb-4.p-4 {
+    left: 10%;
+    right: 10%;
 }
 
 #add-route-button {
@@ -34,6 +38,16 @@ td {
     background-color: #e9ecef;
 }
 
-.card mb-4 p-4 {
-    left: 20px;
+#first-box {
+    color: red;
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 90%;
+}
+
+.card-body{ 
+      color: green;
+      left: 10%;
+      right: 10%;
 }

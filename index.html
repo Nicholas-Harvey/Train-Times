@@ -18,9 +18,8 @@
         <p class="lead">This app will show users the destination of trains, thenn frequency of their departure as well as how long it will be before they make their next departure.</p>
         <hr class="my-4">
       </div>
-      <div class="row">
-        <div class="col-md-12">
           <!-- Add Destination  -->
+          <div class="container-one">
           <div class="card mb-4 p-4">
             <div class="card-body">
               <h3 class="card-title">Add Route</h3>
@@ -39,25 +38,34 @@
                 </div>
                 </form>
                 </div>
-      <br>
-      <br>
+                </div>
+                </div>
+      
       <div class="row">
-
-        <div class="col-md-12">
-  
-          <!-- Current Employees-->
-          <div class="card mb-4">
+          <div class="card mb-4" id="first-box">
             <div class="card-body">
               <h3 class="card-title">Train Schedules by Departure</h3>
-              <table class="table table-sm table-hover" id='employee-table'>
+              <table class="table table-sm table-hover" id='train-table'>
                 <thead>
                   <tr>
                     <th scope="col">Destination</th>
                     <th scope="col">Frequency of Departure</th>
-                    <th scope="col">Time Before Next Departure</th>
-                    <!-- <th scope="col">Months Worked</th>
-                    <th scope="col">Monthly Rate ($)</th>
-                    <th scope="col">Total Billed ($)</th> -->
+                    <th scope="col">Minutes Until Next Departure</th>
+                    <!-- <tr>
+                      <td>New York</th>
+                      <td>Every 13 minute(s)</td>
+                      <td>3 minute(s)</td>
+                    </tr>
+                    <tr> -->
+                      <!-- <td>Chicago</th>
+                      <td>Every 6 minute(s)</td>
+                      <td>1 minute(s)</td>
+                    </tr>
+                    <tr>
+                      <td id="location">Philadelphia</th>
+                      <td id="frequency">Every 11 minute(s)</td>
+                      <td>8 minute(s)</td>
+                    </tr> -->
                   </tr>
                 </thead>
                 <tbody>
@@ -66,7 +74,7 @@
             </div>
           </div>
         </div>
-      </div>
+    
           <!-- <table class="route-table">
         <thead>
           <tr>
@@ -91,6 +99,6 @@
             <td>8 minute(s)</td>
           </tr>
         </tbody>
-      </table> -->
+      </table>
 </body>
 </html>

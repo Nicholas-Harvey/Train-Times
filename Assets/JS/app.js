@@ -47,7 +47,7 @@ database.ref().on("child_added", function (childSnapshot) {
 
     var newRow = $("<tr>").append(
         $("<td>").append(newDes),
-        $("<td>").append("Every " + newFreq + " minute(s)"),
+        $("<td>").append("Every " + newFreq + " minutes"),
         $("<td>").append("Next Departure in " + newDep + " minute(s)")
     );
     $("#train-table > tbody").append(newRow);

@@ -1,3 +1,6 @@
+body {
+    background-color: #00a650;
+}
 th {
     font-size: 17px;
 }
@@ -8,6 +11,7 @@ th {
 }
 td {
     font-size: 17px;
+    color: black;
 }
 h3{
     text-align: left
@@ -21,13 +25,31 @@ h3{
     text-align: center;
     left: 10%;
     right: 10%;
+    background-color: #fff200;
+    color: seagreen;
+    height: 50%;
+    font-weight: bold;
+    border: black;
+    border-style: solid;
+    border-width: 5px; 
 }
 
+.display-4{ 
+    font-size: 40px;
+}
+ 
+.lead {
+    font-weight: bold;
+}
 
 
 .card.mb-4.p-4 {
     left: 10%;
     right: 10%;
+    height: 44%;
+    border-style: solid;
+    border-color: #fff200;
+    border-width: 5px;
 }
 
 #add-route-button {
@@ -39,15 +61,256 @@ h3{
 }
 
 #first-box {
-    color: red;
     position: absolute;
     left: 10%;
     right: 10%;
-    top: 90%;
+    top: 88%;
+    border-style: solid;
+    border-color: #fff200;
+    border-width: 5px;
 }
 
 .card-body{ 
-      color: green;
+      color: #00a650;
       left: 10%;
       right: 10%;
+}
+
+@media screen and (max-width: 980px){
+    body {
+        background-color: #00a650;
+    }
+    th {
+        font-size: 17px;
+    }
+    .display-4{ 
+        font-size: 25px;
+        font-weight: bold;
+        left: 0%;
+    }
+    td {
+        font-size: 17px;
+        color: black;
+    }
+    h3{
+        text-align: left
+    }
+    .input-group {
+        padding: 30px;
+        /* margin: 30px; */
+    }
+    
+    .jumbotron {
+        text-align: center;
+        left: 10%;
+        right: 10%;
+        background-color: #fff200;
+        color: seagreen;
+        height: 50%;
+        font-weight: bold;
+        border: black;
+        border-style: solid;
+        border-width: 5px; 
+    }
+    
+    .display-4{ 
+        font-size: 40px;
+    }
+     
+    .lead {
+        font-weight: bold;
+    }
+    
+    
+    .card.mb-4.p-4 {
+        left: 10%;
+        right: 10%;
+        height: 44%;
+        border-style: solid;
+        border-color: #fff200;
+        border-width: 5px;
+    }
+    
+    #add-route-button {
+        height: auto;
+        width: auto;
+        font-size: 11px;
+        color: black;
+        background-color: #e9ecef;
+    }
+    
+    #first-box {
+        position: absolute;
+        left: 10%;
+        right: 10%;
+        top: 88%;
+        border-style: solid;
+        border-color: #fff200;
+        border-width: 5px;
+    }
+    
+    .card-body{ 
+          color: #00a650;
+          left: 10%;
+          right: 10%;
+    }
+}
+
+@media screen and (max-width: 780px){
+    body {
+        background-color: #00a650;
+    }
+    th {
+        font-size: 17px;
+    }
+    .display-4{ 
+        font-size: 25px;
+        font-weight: bold;
+        left: 0%;
+    }
+    td {
+        font-size: 17px;
+        color: black;
+    }
+    h3{
+        text-align: left
+    }
+    .input-group {
+        padding: 30px;
+        /* margin: 30px; */
+    }
+    
+    .jumbotron {
+        text-align: center;
+        left: 10%;
+        right: 10%;
+        background-color: #fff200;
+        color: seagreen;
+        height: 50%;
+        font-weight: bold;
+        border: black;
+        border-style: solid;
+        border-width: 5px; 
+    }
+    
+    .display-4{ 
+        font-size: 40px;
+    }
+     
+    .lead {
+        font-weight: bold;
+    }
+    
+    
+    .card.mb-4.p-4 {
+        left: 10%;
+        right: 10%;
+        height: 44%;
+        border-style: solid;
+        border-color: #fff200;
+        border-width: 5px;
+    }
+    
+    #add-route-button {
+        height: auto;
+        width: auto;
+        font-size: 11px;
+        color: black;
+        background-color: #e9ecef;
+    }
+    
+    #first-box {
+        position: absolute;
+        left: 10%;
+        right: 10%;
+        top: 88%;
+        border-style: solid;
+        border-color: #fff200;
+        border-width: 5px;
+    }
+    
+    .card-body{ 
+          color: #00a650;
+          left: 10%;
+          right: 10%;
+    }
+}
+@media screen and (max-width: 640px){
+    body {
+        background-color: #00a650;
+    }
+    th {
+        font-size: 17px;
+    }
+    .display-4{ 
+        font-size: 25px;
+        font-weight: bold;
+        left: 0%;
+    }
+    td {
+        font-size: 17px;
+        color: black;
+    }
+    h3{
+        text-align: left
+    }
+    .input-group {
+        padding: 30px;
+        /* margin: 30px; */
+    }
+    
+    .jumbotron {
+        text-align: center;
+        left: 10%;
+        right: 10%;
+        background-color: #fff200;
+        color: seagreen;
+        height: 50%;
+        font-weight: bold;
+        border: black;
+        border-style: solid;
+        border-width: 5px; 
+    }
+    
+    .display-4{ 
+        font-size: 40px;
+    }
+     
+    .lead {
+        font-weight: bold;
+    }
+    
+    
+    .card.mb-4.p-4 {
+        left: 10%;
+        right: 10%;
+        height: 44%;
+        border-style: solid;
+        border-color: #fff200;
+        border-width: 5px;
+    }
+    
+    #add-route-button {
+        height: auto;
+        width: auto;
+        font-size: 11px;
+        color: black;
+        background-color: #e9ecef;
+    }
+    
+    #first-box {
+        position: absolute;
+        left: 10%;
+        right: 10%;
+        top: 88%;
+        border-style: solid;
+        border-color: #fff200;
+        border-width: 5px;
+    }
+    
+    .card-body{ 
+          color: #00a650;
+          left: 10%;
+          right: 10%;
+    }
 }
